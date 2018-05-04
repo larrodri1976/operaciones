@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+	<h4>Informes</h4>
+	<form action="/my-handling-form-page" method="post">
+
+
+
+		<div> 
+			<label for="name">Tipo de Movimiento:</label>
+
+			<select name="opcion">
+				<option value="1">Productos en stock</option> 
+				<option value="2">Poductos agotados</option> 
+				<option value="3">Productos vencidos</option>
+				<option value="10">Ventas mes a mes</option> 
+				<option value="11">productos con mas demanda</option> 
+				<option value="12">Productos con Descuentos</option> 
+			</select>
+		</div>
+
+
+
+		<div>
+			<label>Fecha inicio</label>
+			<input type="date">
+		</div>
+		<div>
+			<label>Fecha final</label>
+			<input type="date">
+		</div>
+
+		<input type="button" value="Buscar" onclickvalidacion()">
+		<input type="button" value="Limpiar" onclickvalidacion()">
+	</form>
+</body>
+</html>
